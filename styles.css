@@ -1,0 +1,15 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* Make the canvas fill the viewport visually; size is driven by script for resolution */
+canvas#world-canvas {
+  display: block; /* remove inline gap */
+  width: 100vw;
+  height: 100vh;
+  background-color: #000; /* optional backdrop while loading */
+}
+
+
